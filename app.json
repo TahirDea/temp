@@ -10,8 +10,8 @@
         "plugin",
         "modular",
         "media"
-      ],
-    "repository": "https://github.com/TahirDea/temp",
+    ],
+    "repository": "https://github.com/BalaPriyan/HydroStreamerBot",
     "success_url": "/",
     "website": "https://github.com/BalaPriyan/HydroStreamerBot",
     "env": {
@@ -20,85 +20,193 @@
             "value": "True"
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org"
+            "description": "Get this value from https://my.telegram.org",
+            "value": "27859815"
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org"
+            "description": "Get this value from https://my.telegram.org",
+            "value": "3061e972cebdf6ce831171b3fce18786"
         },
         "BOT_TOKEN": {
-            "description": "Get this value from @BotFather"
+            "description": "Get this value from @BotFather",
+            "value": "6856017922:AAFqMUGnYsD9kMzYZ4Q7oAraqHrBKkOaG1w"
         },
         "BIN_CHANNEL": {
-            "description": "The BIN Channel ID. Read the readme for more info about this var"
+            "description": "The BIN Channel ID. Read the readme for more info about this var",
+            "value": "-1001811204481"
         },
         "DATABASE_URL": {
-            "description": "MongoDB URI eg: mongodb://admin:pAswaRd@192.168.27.1"
-        },
-        "SLEEP_THRESHOLD": {
-            "description": "Floodwait Sleep timer. Read the readme for more info about this var",
-            "required": false
-        },
-        "WORKERS": {
-            "description": "Number of workers that is to be assigned. Read the readme for more info about this var",
-            "required": false
-        },
-        "NO_PORT": {
-            "description": "If you don't want your port to be displayed. Read the readme for more info about this var",
-            "value": "False",
-            "required": false
-        },
-        "BIND_ADDRESS": {
-            "description": "Read the readme for more info about this var",
-            "required": false
-        },
-        "PING_INTERVAL": {
-            "description": "The time in s you want the servers to be pinged each time to avoid sleeping.",
-            "required": false
+            "description": "MongoDB URI eg: mongodb://admin:pAswaRd@192.168.27.1",
+            "value": "mongodb+srv://neta:neta@cluster0.nkfhsa3.mongodb.net/?retryWrites=true&w=majority"
         },
         "FQDN": {
             "description": "A Fully Qualified Domain Name or Heroku App URL. (eg. https://example.herokuapp.com). Update it After Deploying the Bot",
-            "required": false
+            "value": "sfwfiletolink.tahirdea69.workers.dev"
+        },
+        "OWNER_ID": {
+            "description": "Your Telegram User ID(Note: Not Username)",
+            "value": "1820539117"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Update Channel Username without @ eg: AWeirdText",
+            "value": "TeamShoGuN"
         },
         "HAS_SSL": {
             "description": "Don't Change It",
             "value": "True"
         },
-        "OWNER_ID": {
-            "description": "Your Telegram User ID(Note: Not Username)"
-        },
-        "UPDATES_CHANNEL": {
-            "description": "Update Channel Username without @ eg: AWeirdText",
-            "required": false
-        },
-        "FORCE_UPDATES_CHANNEL": {
-            "description": "Set to True, if you want every user Join update channel to use the bot",
-            "required": false
+        "NO_PORT": {
+            "description": "If you don't want your port to be displayed. Read the readme for more info about this var",
+            "value": "True"
         },
         "SESSION_NAME": {
             "description": "Mongodb Database Name Default to HydroStreamerBot",
+            "value": "sfwfiletolink",
             "required": false
         },
-        "KEEP_ALIVE" : {
+        "KEEP_ALIVE": {
             "description": "If you want to make the server ping itself every `PING_INTERVAL` seconds to avoid sleeping. Helpful in PaaS Free tiers. Defaults to `False`",
-            "required": false,
-            "value": "True"
-        },
-        "TOS": {
-            "description": "URL to your Terms of Service Text",
+            "value": "True",
             "required": false
         },
-        "LINK_LIMIT": {
-            "description": "Limit Number of Links a User Can Generate. Value should be a Number",
+        "MULTI_TOKEN1": {
+            "description": "Additional Bot Token",
+            "value": "6522809218:AAGaO5a0bwW9wW-t2sDu5VjBi5TMPrUm0vg",
+            "required": false
+        },
+        "MULTI_TOKEN2": {
+            "description": "Additional Bot Token",
+            "value": "6923572846:AAE1wFrckNGEx9g6ZOS4gMEgVE7RJNjJodA",
+            "required": false
+        },
+        "MULTI_TOKEN3": {
+            "description": "Additional Bot Token",
+            "value": "7239701849:AAFn274R9tK9saX2MndLn_B4SgvVwUoKZWM",
+            "required": false
+        },
+        "MULTI_TOKEN4": {
+            "description": "Additional Bot Token",
+            "value": "7192259587:AAFQ9NYu4Ydea4gj_NmpZt79MdilKIZKMSE",
+            "required": false
+        },
+        "MULTI_TOKEN5": {
+            "description": "Additional Bot Token",
+            "value": "6553379883:AAH61Ml6-LWJuc_i6Qz3X2ViRNOYNnIelGk",
+            "required": false
+        },
+        "MULTI_TOKEN6": {
+            "description": "Additional Bot Token",
+            "value": "7183348658:AAGYiDBuXw4o-qQF4gaM7Qm2gy9BkQmqDd8",
+            "required": false
+        },
+        "MULTI_TOKEN7": {
+            "description": "Additional Bot Token",
+            "value": "6827793097:AAHD9S3s0QVap406YgXvusGWvHpM0YuOXS0",
+            "required": false
+        },
+        "MULTI_TOKEN8": {
+            "description": "Additional Bot Token",
+            "value": "6434194475:AAF_ShhO2diPiuf__Jdb1UsBRC5m4ilkBWc",
+            "required": false
+        },
+        "MULTI_TOKEN9": {
+            "description": "Additional Bot Token",
+            "value": "5644215415:AAEFEuwysmojquejX1DeFQhUzo3U-lQN5qE",
+            "required": false
+        },
+        "MULTI_TOKEN10": {
+            "description": "Additional Bot Token",
+            "value": "6965396284:AAEZBGRReDlPg4Hc1yGcsAKkfA-1T8a6GvI",
+            "required": false
+        },
+        "MULTI_TOKEN11": {
+            "description": "Additional Bot Token",
+            "value": "6745380747:AAFT8P9mmkNiiYJWCdMV82vCums7t3P17N8",
+            "required": false
+        },
+        "MULTI_TOKEN12": {
+            "description": "Additional Bot Token",
+            "value": "6330690266:AAHNu6AwCL76WDnhSHIuteIvJGoynVO5fZQ",
+            "required": false
+        },
+        "MULTI_TOKEN13": {
+            "description": "Additional Bot Token",
+            "value": "7276393751:AAE68DCevtfWPvEePp6PetpM_pMUfHvmjKA",
+            "required": false
+        },
+        "MULTI_TOKEN14": {
+            "description": "Additional Bot Token",
+            "value": "6993786445:AAFZfuVzXPEYM0zWDj_S5bVPX7glVowp0c4",
+            "required": false
+        },
+        "MULTI_TOKEN15": {
+            "description": "Additional Bot Token",
+            "value": "7276683893:AAEZ8YkdMRw_V60ZQ4Ifr8m0UEDiMIBEJDs",
+            "required": false
+        },
+        "MULTI_TOKEN16": {
+            "description": "Additional Bot Token",
+            "value": "7462057271:AAFh8MRJmsnwQ9v1NBTVCj-VN6Ws0KjNPeU",
+            "required": false
+        },
+        "MULTI_TOKEN17": {
+            "description": "Additional Bot Token",
+            "value": "7155392823:AAGLE5FvALhe0aub3vE8wfdJHRYqPY4nDUE",
+            "required": false
+        },
+        "MULTI_TOKEN18": {
+            "description": "Additional Bot Token",
+            "value": "7263978981:AAFbs8vtsHygaVWx0_p9WjLRZj0NkgIsIKI",
+            "required": false
+        },
+        "MULTI_TOKEN19": {
+            "description": "Additional Bot Token",
+            "value": "1777841084:AAF85EE11ddY5l1wmoKpiIx7LHMO5DsPlug",
+            "required": false
+        },
+        "MULTI_TOKEN20": {
+            "description": "Additional Bot Token",
+            "value": "7254341294:AAGbmDah9NDLnmvJmTj_Nc0M8VxwoqwBrYM",
+            "required": false
+        },
+        "MULTI_TOKEN21": {
+            "description": "Additional Bot Token",
+            "value": "7164220153:AAHMhlGYOHF5pXlsFozKkc71vRvFoH7AdRM",
+            "required": false
+        },
+        "MULTI_TOKEN22": {
+            "description": "Additional Bot Token",
+            "value": "7245271780:AAF4x_7eSQp7pHc1rxvWGxEKsENth2mi-7s",
+            "required": false
+        },
+        "MULTI_TOKEN23": {
+            "description": "Additional Bot Token",
+            "value": "7494338922:AAHWSMnYTT_2yOGJrMphx7uB9lP2yUWscBU",
+            "required": false
+        },
+        "MULTI_TOKEN24": {
+            "description": "Additional Bot Token",
+            "value": "1890546901:AAE8h_Q_KmIBdVO40pUNJz7E-lHLwEz159o",
+            "required": false
+        },
+        "MULTI_TOKEN25": {
+            "description": "Additional Bot Token",
+            "value": "7450234704:AAHAceRiRf9W84FzNyUV8f6P6x0ugSPk2WU",
+            "required": false
+        },
+        "MULTI_TOKEN26": {
+            "description": "Additional Bot Token",
+            "value": "7132353466:AAHLL8GKBPXuOgKB7U98GygsIM0rwGGZfuA",
             "required": false
         }
     },
     "buildpacks": [{
         "url": "heroku/python"
-      }],
+    }],
     "formation": {
         "web": {
             "quantity": 1,
             "size": "Standard"
         }
     }
-  }
+}
